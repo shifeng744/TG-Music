@@ -1,0 +1,345 @@
+@keyframes p1-1{
+	0%{
+		transform: rotate(0deg)
+
+	}
+	100%{
+		transform: rotate(360deg)
+		
+
+	}
+}
+@keyframes pg-label{
+	0%{
+		
+		opacity: 0;
+		transform: translate(-100px,0px) rotate(-90deg);
+		
+		}
+		50%{
+		
+		opacity: 0;
+		transform: translate(-100px,0px) rotate(-90deg);
+		
+		}
+	100%{
+		
+		opacity: 1;
+		transform:translate(0px,0px) rotate(0deg) ;
+		}
+}
+@keyframes pg-label2{
+	0%{
+		
+		opacity: 0;
+		transform: translate(100px,0px) rotate(90deg);
+		
+		}
+		50%{
+		
+		opacity: 0;
+		transform: translate(100px,0px) rotate(90deg);
+		
+		}
+	100%{
+		
+		opacity: 1;
+		transform:translate(0px,0px) rotate(0deg) ;
+		}
+}
+@keyframes pg-line{
+	0%{
+		width: 0px;
+		
+		}
+	50%{
+		width: 0px;
+		}
+	100%{
+		
+		width: 420px;
+		}
+}
+@keyframes pg-bot{
+	0%{
+		transform: translateX(-800px);
+		
+		}
+	50%{
+		transform: translateX(-800px);
+		
+		}
+	100%{
+		
+		transform: translateX(0px);
+	
+		}
+}
+@keyframes pg-bot2{
+	0%{
+		
+		transform: translateX(1200px);
+		
+		}
+	50%{
+		transform: translateX(1200px);
+		
+		}
+	100%{
+		
+		transform: translateX(0px);
+	
+		}
+}
+@keyframes pg-span{
+	0%{
+		
+		opacity: 0;
+
+		
+		}
+		60%{
+		
+		opacity: 0;
+
+		
+		}
+	100%{
+		
+		opacity: 1;
+
+		}
+}
+@keyframes p1-3{
+	0%{
+		transform: translate(0px,0px);
+		opacity: 0;
+	}
+	20%{
+		transform: translate(0px,8px);
+		opacity: 1;
+	}
+	80%{
+		transform: translate(0px,32px);
+		opacity: 1;
+	}
+	100%{
+		transform: translate(0px,40px);
+		opacity: 0;
+	}
+}
+@keyframes p1-4{
+	0%  {
+    	opacity: 0;
+		
+	}
+    10% {
+    	opacity: 0;
+    	
+    	}
+    20% {
+    	transform: translate(0px,0px);
+    	opacity: 0;
+    	}
+    25% {
+    	transform: translate(0px,0px);
+    	opacity: 1;
+    	}	
+    30% {
+    	transform:translate(0px,25px);
+    }
+    45% {
+    	transform:translate(0px,25px);
+    }
+    50%{
+    	opacity: 1; transform:translate(0px,58px);
+    	}
+    100%{
+    	 opacity: 0; transform:translate(0px,58px);}   
+}
+@keyframes p1-5{
+	0%  {}
+    10% {
+    	transform:translate(0,-28px);
+    	}
+    20% {
+    	transform:translate(70px,-28px); 
+    	}
+    30% {
+    	transform:translate(70px,0);
+    }
+    45% {
+    	transform:translate(70px,0);
+    }
+    50%{
+    	opacity: 1; transform:translate(70px,30px);
+    	}
+    100%{
+    	 opacity: 0; transform:translate(70px,30px);}   	 
+}
+@keyframes p1-6{
+	from{
+		background-position: right;
+	}  	
+	to{
+		background-position: left;
+	} 
+}
+@keyframes p1-7{
+	0%{
+		background-position: left;
+	}
+	25%{
+		background-position: center;
+	}
+	50%{
+		background-position: right;
+	}
+	75%{
+		background-position: center;
+	}
+	100%{
+		background-position: left;
+	}
+}
+@keyframes warp{
+	0%{
+		opacity: 0;
+	}
+	40%{
+		opacity: 0;
+	}
+	60%{
+		opacity: 0;
+		transform: translate(50px,0px);
+	}
+	75%{
+		opacity: 1;
+		transform: translate(50px.0px);
+	}
+	95%{
+		transform: translate(100px.0px);
+		opacity: 1;
+	}
+	100%{
+		transform: translate(140px,0px);
+		opacity: 0;
+	}
+}
+@keyframes p2-1{
+	0%{
+		transform: translate(0px,0px);
+		opacity: 1;
+		
+	}
+	100%{
+		transform: translate(20px,0px);
+		
+		opacity: 0.5;
+
+	}
+}
+@keyframes p2-2{
+	0%{
+		transform: translate(0px,0px);
+		opacity: 0;
+		
+	}
+	10%{
+		transform: translate(0px,0px);
+		opacity: 0;
+		
+	}
+	40%{
+		transform: translate(0px,0px);
+		opacity: 0;
+		
+	}
+	60%{
+		opacity: 1;
+		transform: translate(0px,0px);
+		
+	}
+	80%{
+		transform: translate(90px,0px);
+		opacity: 1;
+		
+	}
+	90%{
+		transform: translate(135px,0px);
+		opacity: 1;
+		
+	}
+	100%{
+		transform: translate(180px,0px);
+		
+		opacity: 0;
+
+	}
+}
+@-webkit-keyframes fadeIn {
+    0%  { opacity: 0;}
+    100%{ opacity: 1;}
+}
+@keyframes p2-5{
+	0%{
+		background-size: cover;
+	}
+	20%{
+		background-size: 96%;
+	}
+	40%{
+		background-size: 92%;
+	}
+	60%{
+		background-size: 88%;
+	}
+	80%{
+		background-size: 84%;
+	}
+	100%{
+		background-size: 80%;
+	}
+}
+@keyframes p3-1{
+	0%{
+
+		opacity: 0;
+		
+	}
+	100%{
+
+		
+		opacity: 1;
+
+	}
+}
+@keyframes p3-4{
+	0%{
+		transform: translate(0px,0px);
+		opacity: 1;
+		
+	}
+	100%{
+		transform: translate(20px,0px);
+		
+		opacity: 0.5;
+
+	}
+}
+@keyframes pg1-left{
+	0%{
+		opacity: 0;
+		transform: translate(0px,800px)
+
+	}
+	30%{
+		opacity: 1;
+		transform: translate(0px,300px)
+
+	100%{
+		transform: translate(0px,0px)
+		
+
+	}
+}

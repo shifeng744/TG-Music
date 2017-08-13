@@ -1,0 +1,485 @@
+/*复位样式*/
+body, a, textarea, input, span { font-family:SourceHanSans,Microsoft YaHei,"宋体", Verdana, Geneva, sans-serif;font-weight: 100;}
+body,html,div, dl, dt, dd, ul, ol, li, p, h1, h2, h3, h4, h5, h6, th, td, hr, blockquote { padding: 0; margin: 0; font-weight: 100;}
+html,body,.page01,.page02,.page03,.page04,.page05{
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+	
+	
+}
+body{
+	overflow: scroll;
+	overflow-x: hidden;
+	}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*公共样式*/
+.main h1{
+	font-size: 26px;
+	font-weight: 100;
+	color: #fff;	
+}
+.main h3{
+	font-size: 20px;
+	color: #dbddab;
+	text-align: right;
+}
+.container{
+	width: 1100px;
+	margin: auto;
+}
+.main.page>.container>.left{
+	margin-top: 250px;
+	float: left;
+	width: 500px;
+	margin-left: 80px;
+	}
+.main.page>.container>.right{
+	width: 500px;
+	margin-top: 160px;
+	float: right;
+	}	
+.main.page>.container .title>label{
+	font-family: "微软雅黑";
+	font-weight: 100;
+	font-size: 44px;
+	text-align: center;
+	line-height: 73px;
+	width: 73px;
+	height: 73px;
+	display: inline-block;
+	color: #f8707b;	
+	background: url(../images/title_bg.png);
+	/*animation: pg-label 2s linear;*/
+}
+	
+.main.page .container .line { 
+	width: 420px;
+	height:1px; border-bottom:1px solid #fff; overflow:hidden;
+	margin: 5px 0px;
+	/*animation: pg-line 2s linear;*/
+	}
+.main.page .container span{
+	display: inline-block;
+	color: #fff;	
+	font-size:30px;
+	position: relative;
+	top: -30px;
+	/*animation: pg-span 3s linear;*/
+}
+.main.page .container .bottom{
+	margin-top: 80px;
+	margin-right: 90px;
+	/*animation: pg-bot 2s linear;*/
+	}
+
+.main.page .container h1{
+	/*animation: pg-bot 2s linear;*/
+	}	
+.main.page .container .bottom h3{
+	line-height: 40px;
+	}
+.page.main>.container>.left{
+	margin-top: 180px;	
+	
+}
+.page.main>.container>.right label{
+	background: url(../images/title_bg1.png);
+	color: #fff;
+	/*animation: pg-label2 2s linear;*/
+}
+.page.main>.container>.right{
+	position: relative;
+	margin-top: 250px;
+	}
+.page.main>.container>.right h3{
+	color: #e093aa;	
+}
+.page.main>.container>.right h1{
+	color: #019799;	
+}
+.page.main>.container>.right .line{
+	border-color: #019799;	
+		
+}
+/*==========滑动样式=============*/
+.main.page.switch>.container .title>label{
+	animation: pg-label 2s linear;
+	}
+.main.page.switch .container .line{
+	animation: pg-line 2s linear
+}
+.main.page.switch .container span{
+	animation: pg-span 3s linear;
+}
+.main.page.switch .container .bottom{
+	animation: pg-bot 2s linear;
+	}
+.main.page.switch .container h1{
+	animation: pg-bot 2s linear;	
+}
+.page.main.switch>.container>.right label{
+	animation: pg-label2 2s linear;
+	}
+.page.main.switch>.container>.right .bottom{
+	animation: pg-bot2 2s linear;
+	}
+.page.main.switch>.container>.right h1{
+	animation: pg-bot2 2s linear;
+}				
+/*========================*/
+.page.main>.container>.right .bottom{
+
+	/*animation: pg-bot2 2s linear;*/
+	}
+.page.main>.container>.right h1{
+	/*animation: pg-bot2 2s linear;*/
+	}	
+/*工具箱*/
+.left-float{
+	float: left;
+}
+.right-float{
+	float: right;
+}
+.text-content{
+	text-align: center;
+}
+.clear-fixed:after,.clear-fixed:before{
+	clear: both;
+	content: "";
+}
+/*样式*/
+/*导航*/
+.nav{
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 999;
+}
+.nav>img{
+	width: 136px;
+	height: 74px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.nav>.right-float{
+	margin-top: 55px;
+	margin-right: 89px;
+}
+.nav>.right-float>li{
+	float: left;
+	
+}
+.nav>.right-float>li+li{
+	margin-left: 52px;
+}
+.nav>.right-float>li>a{
+color:#f6f7fa;
+	
+}
+/*=======page01==========*/
+.page01{
+	background: #657faf;
+	min-height: 700px;
+	overflow: hidden;
+	
+}
+.page01>.container>.left{
+	color: #d5cb7e;
+	text-align: center;
+	float: left;
+	margin-top: 300px;
+	width: 280px;
+	animation: pg1-left 2s ease-out;
+}
+.page01>.container>.left>img{
+	width: 73px;
+}
+.page01>.container>.right{
+	position: relative;
+	margin-top: 90px;
+	float: right;
+	width: 730px;
+	height: 536px;
+	background: url(../images/p1.jpg) no-repeat;
+	background-color: rgb(0,0,0,0);
+}
+.page01>.container>.right>.warp{
+	position: absolute;
+}
+.page01>.container>.right>.p1-1{
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background: url(../images/p1-1.png);
+	left: 100px;
+	top: 193px;
+	animation: p1-1 3s linear infinite;
+}
+.page01>.container>.right>.p1-3{
+	position: absolute;
+	width: 11px;
+	height: 13px;
+	background: url(../images/p1-3.png);
+	left: 40px;
+	top: 108px;
+	animation: p1-3 3s linear infinite;
+}
+.page01>.container>.right>.p1-4{
+	position: absolute;
+	width: 11px;
+	height: 13px;
+	background: url(../images/p1-4.png);
+	left: 155px;
+	top: 14px;
+	animation: p1-4 10s linear infinite;
+	z-index: 3;
+}
+.page01>.container>.right>.p1-5{
+	position: absolute;
+	width: 22px;
+	height: 21px;
+	background: url(../images/p1-5.png);
+	left: 79px;
+	top: 39px;
+	animation: p1-5 10s linear infinite;
+}
+.page01>.container>.right>.p1-6{
+	position: absolute;
+	width: 97px;
+	height: 38px;
+	background: url(../images/p1-6.png);
+	left: 144px;
+	top: 99px;
+	animation: p1-6 10s linear infinite;
+}
+.page01>.container>.right>.warp>.p1-7{
+	position: absolute;
+	width: 28px;
+	height: 50px;
+	background: url(../images/p1-7.png) no-repeat;
+	background-size: 80px;
+	left: 152px;
+	top: 83px;
+	animation: p1-7 1.5s step-start infinite;
+	z-index: 4;
+}
+.page01>.container>.right>.warp{
+	position: absolute;
+	width: 28px;
+	height: 50px;
+	left: -58px;
+	top: 0px;
+	animation: warp 10s linear infinite;
+	z-index: 4;
+}
+.page01>.container>.right>.p1-sbg{
+	position: absolute;
+	width: 35px;
+	height: 30px;
+	background: url(../images/p1-sbg_03.jpg);
+	left: 142px;
+	top: 68px;
+	z-index: 3;
+}
+.page01>.container>.right>.p2-1{
+	position: absolute;
+	width: 76px;
+	height: 32px;
+	background: url(../images/p2-1.png);
+	left: 275px;
+	top: 20px;
+	animation: p2-1 3s linear infinite alternate;
+
+	z-index: 5;
+}
+.page01>.container>.right>.p2-2{
+	position: absolute;
+	width: 112px;
+	height: 35px;
+	background: url(../images/p2-2.png);
+	left: 275px;
+	top: 20px;
+	animation: p2-2 7s linear infinite;
+}
+.page01>.container>.right>.p2-3{
+	position: absolute;
+	overflow: hidden;
+	width: 260px;
+	top:66px;
+	left:306px;
+}
+.page01>.container>.right>.p2-3 #firstone{
+	background: url("../images/p2-3.png") no-repeat center;
+	padding-left:4px;
+	 margin-left: -4px;
+	  margin-right: 10px;
+}
+.page01>.container>.right>.p2-3 li{
+	font-size: 14px;
+	float:left;
+	width:54px;
+	height:24px;
+	padding-right:4px;
+	line-height:22px;
+	color:#F2F2F2;
+	 background: url("../images/p2-4.png") no-repeat center;
+	  text-align: center;
+	   margin:0 5px 5px;}
+}
+.page01>.container>.right>.p2-3 li:nth-child(9){
+	position: relative;
+	top: -9999px;
+	}
+.page01>.container>.right>.p2-3 li:nth-child(1),.page01>.container>.right>.p2-3 li:nth-child(6),.page01>.container>.right>.p2-3 li:nth-child(11),.page01>.container>.right>.p2-3 li:nth-child(13){
+	animation:fadeIn 0.5s 6s ease-in-out both; -webkit-animation:fadeIn 0.5s 6s ease-in-out both;
+	}
+.page01>.container>.right>.p2-3 li:nth-child(3),.page01>.container>.right>.p2-3 li:nth-child(8),.page01>.container>.right>.p2-3 li:nth-child(9){
+	animation:fadeIn 0.5s 6.5s ease-in-out both; -webkit-animation:fadeIn 0.5s 6.5s ease-in-out both;
+	}
+.page01>.container>.right>.p2-3 li:nth-child(2),.page01>.container>.right>.p2-3 li:nth-child(4),.page01>.container>.right>.p2-3 li:nth-child(12){
+	animation:fadeIn 0.5s 7s ease-in-out both; -webkit-animation:fadeIn 0.5s 7s ease-in-out both;
+	}
+.page01>.container>.right>.p2-3 li:nth-child(5),.page01>.container>.right>.p2-3 li:nth-child(7),.page01>.container>.right>.p2-3 li:nth-child(10),.page01>.container>.right>.p2-3 li:nth-child(14){
+	animation:fadeIn 0.5s 7.5s ease-in-out both; -webkit-animation:fadeIn 0.5s 7.5s ease-in-out both;
+	}
+.page01>.container>.right>.p2-3 li:nth-child(9),.page01>.container>.right>.p2-3 li:nth-child(12){
+	position: relative;
+	top: -9999px;
+	
+	}
+.page01>.container>.right>.p2-5{
+	position: absolute;
+	width: 22px;
+	height: 18px;
+	background: url(../images/p2-5.png) no-repeat;
+	left: 442px;
+	top: 149px;
+	animation: p2-5 2s linear infinite alternate;
+}
+.page01>.container>.right>.p3-1{
+	position: absolute;
+	width: 246px;
+	height: 246px;
+	background: url(../images/p3-1.png);
+	left: 2px;
+	top: 281px;
+	animation: p3-1 3s linear infinite alternate;
+}
+.page01>.container>.right>.p3-2{
+	position: absolute;
+	width: 246px;
+	height: 246px;
+	background: url(../images/p3-2.png);
+	left: 2px;
+	top: 281px;
+	animation: p3-1 1.5s 3s linear infinite alternate;
+}
+.page01>.container>.right>.p3-3{
+	position: absolute;
+	width: 26px;
+	height: 12px;
+	background: url(../images/p3-3.png);
+	left: 38px;
+	top: 334px;
+	animation: p2-1 3s linear infinite alternate;
+	z-index: 5;
+}
+.page01>.container>.right>.p3-4{
+	position: absolute;
+	width: 26px;
+	height: 12px;
+	background: url(../images/p3-4.png);
+	left: 164px;
+	top: 314px;
+	animation: p3-4 3s 2s linear infinite alternate;
+	z-index: 5;
+}
+.page01>.container>.right>.p3-8{
+	position: absolute;
+	width: 216px;
+	height: 133px;
+	background: url(../images/p3-8.png);
+	left: 22px;
+	top: 349px;
+	z-index: 6;
+}
+/*=============page02===============*/
+.page02{
+	background: #f8707b;
+	overflow: hidden;
+	min-height: 700px;
+}
+/*=============page03===============*/
+.page03{
+	background: #b7e9de;
+	min-height: 730px;	
+	overflow: hidden;
+}
+
+/*=============page04===============*/
+.page04{
+	background: #ffba85;
+	min-height: 700px;
+}
+.page04>.container>.left>.title label{
+	color:#ffba85 ;
+	}	
+.page04>.container>.left>.bottom h3{
+	color:#f27915 ;
+	}	
+.page04.main.page>.container>.right{
+	margin-top: 160px;
+	
+	}
+/*=============page05===============*/
+.page05{
+	min-height: 700px;
+	background: #99c6d9;
+	overflow: hidden;
+	}	
+.page05>.container>.right>.title>label{
+	background: url(../images/title_bg.png);
+	color: #99c6d9;
+	}	
+.page05>.container>.right>.title>.line{
+	background: #fff;
+	}	
+.page05.main.page>.container>.right h1{
+	color: #fff;	
+}
+.page05.main.page>.container>.right>.bottom h3{
+		color: #4888c2;
+}
+/*======滑动小圆点=======*/
+.Dot{
+	position: fixed;
+	right: 30px;
+	top: 50%;
+	transform: translate(0px,-50%);	
+	text-align: center;
+}
+.Dot ul li{
+	border-radius: 100%;
+	margin: 10px 0px;
+	
+	display: block;
+	width: 12px;
+	height: 12px;
+	background:rgba(255,255,255,.4);	
+	cursor:pointer ;
+}
+.Dot ul li:hover{
+	background: #fff;
+	}
+.cur{
+	background: #fff !important;
+}
